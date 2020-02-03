@@ -28,7 +28,9 @@ ui <- navbarPage("KD Discharge Risk", theme = shinytheme("flatly"), collapsible 
       ),
     
   tabPanel("Calculator", id="test", 
-      div(h2("Kawasaki Disease Early Discharge Risk"),br()),
+      div(h2("Kawasaki Disease Early Discharge Risk"),
+          h4("Adapted from Hester", em("et al."), "(2019)", a("PMID: 31501220", 
+                                                              href="https://www.ncbi.nlm.nih.gov/pubmed/31501220"))),
       sidebarLayout(
         sidebarPanel(width = 3,
           bsCollapse(open = "panel",
