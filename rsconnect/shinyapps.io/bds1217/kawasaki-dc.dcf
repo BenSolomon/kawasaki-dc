@@ -1,0 +1,12 @@
+name: kawasaki-dc
+title: kawasaki-dc
+username:
+account: bds1217
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1641514
+bundleId: 2718606
+url: https://bds1217.shinyapps.io/kawasaki-dc/
+when: 1578632163.50306
+asMultiple: FALSE
+asStatic: FALSE
